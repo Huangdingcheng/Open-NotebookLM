@@ -7,10 +7,15 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![Node](https://img.shields.io/badge/Node-18+-339933?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-2F80ED?style=flat-square&logo=apache&logoColor=white)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/OpenDCAI/Open-NotebookLM?style=flat-square&logo=github)](https://github.com/OpenDCAI/Open-NotebookLM)
 
 中文 | [English](README.md)
 
-**开源的 NotebookLM 替代方案** — 上传文档，智能问答，一键生成 PPT / 思维导图 / 播客 / DrawIO 图表 / 闪卡 / 测试题 / 深度研究报告
+### 开源的 NotebookLM 替代方案
+
+将文档转化为交互式知识库，支持 AI 智能问答、笔记编辑和一键内容生成
+
+[快速开始](#-快速开始) · [核心功能](#-核心功能) · [项目文档](#-项目结构) · [交流社区](#-交流群)
 
 </div>
 
@@ -87,25 +92,71 @@
 <p><em>深度研究报告生成</em></p>
 </div>
 
+<div align="center">
+<img src="static/readme/note_basic.png" alt="笔记编辑器" width="90%"/>
+<p><em>笔记编辑器 — Notion 风格块编辑器</em></p>
+</div>
+
+<div align="center">
+<img src="static/readme/note_basic_ai.png" alt="AI 辅助写作" width="90%"/>
+<p><em>AI 辅助写作 — 润色、改写、解释</em></p>
+</div>
+
+<div align="center">
+<img src="static/readme/note_polish.png" alt="AI 润色" width="90%"/>
+<p><em>AI 润色 — 提升写作质量</em></p>
+</div>
+
+<div align="center">
+<img src="static/readme/note_understanding.png" alt="AI 解释" width="90%"/>
+<p><em>AI 解释 — 理解复杂内容</em></p>
+</div>
+
 ---
 
 ## ✨ 核心功能
 
-| 功能 | 说明 |
-|------|------|
-| 📚 **知识库管理** | 上传 PDF 等文档、粘贴网址/文本、联网搜索引入，多源聚合到笔记本 |
-| 🔐 **用户管理** | 基于 Supabase 的邮箱注册/登录 + OTP 验证，多用户数据隔离；不配置时可无登录体验全部功能 |
-| 💬 **智能问答** | 基于选中文档的 RAG 问答，对话历史持久化 |
-| ✍️ **AI 辅助笔记** | Notion 风格块编辑器，支持 AI 润色、改写、解释、基于来源的智能生成，支持 1-6 级标题、列表、代码块等 Markdown 格式 |
-| 🎨 **PPT 生成** | 从知识库内容一键生成可编辑演示文稿 |
-| 🧠 **思维导图** | 生成 Mermaid 思维导图，支持预览与导出 |
-| 🎙️ **知识播客** | 将知识库内容转为播客脚本与讲解素材 |
-| 🧩 **DrawIO 图表** | 从文本或图片生成可编辑 DrawIO 图表，内嵌编辑器 |
-| 🃏 **闪卡** | 基于知识库内容自动生成学习闪卡 |
-| 📝 **测试题** | 自动生成选择题，支持作答与评分 |
-| 🔍 **联网搜索** | 支持 Serper / SerpAPI / Google CSE / Brave / 博查等多种搜索引擎 |
-| 📊 **深度研究报告** | 联网搜索 + LLM 综合分析，生成结构化研究报告 |
-| 🔗 **语义检索** | 本地 Embedding 向量检索，支持 Top-K 与多模型 |
+<table>
+<tr>
+<td width="50%">
+
+### 📚 知识管理
+- **多源导入**：PDF、网址、纯文本、联网搜索
+- **语义检索**：本地 Embedding 向量检索
+- **智能组织**：多源聚合到笔记本
+
+### 💬 AI 智能交互
+- **RAG 问答**：基于文档的上下文感知回答
+- **对话历史**：持久化会话记录
+- **来源追溯**：透明的引用追踪
+
+### ✍️ 智能笔记
+- **Notion 风格编辑器**：块编辑，支持 Markdown
+- **AI 写作助手**：润色、改写、解释、生成
+- **丰富格式**：标题（1-6 级）、列表、代码块、引用
+
+</td>
+<td width="50%">
+
+### 🎨 内容生成
+- **演示文稿**：从知识库生成可编辑 PPT
+- **思维导图**：Mermaid 图表，支持预览导出
+- **流程图表**：DrawIO 图表，内嵌编辑器
+- **知识播客**：脚本生成与 TTS 语音合成
+
+### 📊 学习工具
+- **闪卡**：自动生成学习卡片
+- **测试题**：选择题生成与评分
+- **深度研究**：联网搜索 + LLM 综合报告
+
+### 🔐 用户管理
+- **身份认证**：Supabase 邮箱 + OTP 验证
+- **多用户支持**：按用户隔离数据
+- **体验模式**：无需登录即可使用全部功能
+
+</td>
+</tr>
+</table>
 
 ---
 

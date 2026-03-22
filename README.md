@@ -7,10 +7,15 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![Node](https://img.shields.io/badge/Node-18+-339933?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-2F80ED?style=flat-square&logo=apache&logoColor=white)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/OpenDCAI/Open-NotebookLM?style=flat-square&logo=github)](https://github.com/OpenDCAI/Open-NotebookLM)
 
 English | [中文](README_ZH.md)
 
-**Open-source NotebookLM alternative** — Upload documents, chat with sources, generate PPTs / mind maps / podcasts / DrawIO diagrams / flashcards / quizzes / deep research reports in one click
+### Open-source NotebookLM Alternative
+
+Transform your documents into interactive knowledge bases with AI-powered chat, note-taking, and one-click content generation
+
+[Get Started](#-quick-start) · [Features](#-core-features) · [Documentation](#-project-structure) · [Community](#-community)
 
 </div>
 
@@ -28,32 +33,32 @@ English | [中文](README_ZH.md)
 ## 📸 Screenshots
 
 <div align="center">
-<img src="static/readme/dashboard.png" alt="Dashboard" width="90%"/>
+<img src="static/readme/dashboard_en.png" alt="Dashboard" width="90%"/>
 <p><em>Dashboard — Notebook management</em></p>
 </div>
 
 <div align="center">
-<img src="static/readme/notebook_view.png" alt="Notebook workspace" width="90%"/>
+<img src="static/readme/notebook_view_en.png" alt="Notebook workspace" width="90%"/>
 <p><em>Notebook workspace — Knowledge base + Smart QA + One-click generation</em></p>
 </div>
 
 <div align="center">
-<img src="static/readme/notebook_view_2.png" alt="Generation panel" width="90%"/>
+<img src="static/readme/notebook_view_2_en.png" alt="Generation panel" width="90%"/>
 <p><em>Generation panel — Multiple output formats</em></p>
 </div>
 
 <div align="center">
-<img src="static/readme/notebook_view_3.png" alt="Chat and knowledge base" width="90%"/>
+<img src="static/readme/notebook_view_3_en.png" alt="Chat and knowledge base" width="90%"/>
 <p><em>Chat and knowledge base details</em></p>
 </div>
 
 <div align="center">
-<img src="static/readme/ppt.png" alt="PPT generation" width="90%"/>
+<img src="static/readme/PPT_en.png" alt="PPT generation" width="90%"/>
 <p><em>PPT generation</em></p>
 </div>
 
 <div align="center">
-<img src="static/readme/mindmap.png" alt="Mind map" width="90%"/>
+<img src="static/readme/mindmap_en.png" alt="Mind map" width="90%"/>
 <p><em>Mind map</em></p>
 </div>
 
@@ -63,49 +68,95 @@ English | [中文](README_ZH.md)
 </div>
 
 <div align="center">
-<img src="static/readme/podcast.png" alt="Knowledge podcast" width="90%"/>
+<img src="static/readme/podcast_en.png" alt="Knowledge podcast" width="90%"/>
 <p><em>Knowledge podcast</em></p>
 </div>
 
 <div align="center">
-<img src="static/readme/flashcard.png" alt="Flashcards" width="90%"/>
+<img src="static/readme/flashcards_en.png" alt="Flashcards" width="90%"/>
 <p><em>Flashcard study</em></p>
 </div>
 
 <div align="center">
-<img src="static/readme/quiz.png" alt="Quiz" width="90%"/>
+<img src="static/readme/quiz_en.png" alt="Quiz" width="90%"/>
 <p><em>Quiz</em></p>
 </div>
 
 <div align="center">
-<img src="static/readme/search.png" alt="Web search" width="90%"/>
+<img src="static/readme/search_en.png" alt="Web search" width="90%"/>
 <p><em>Web search to import sources</em></p>
 </div>
 
 <div align="center">
-<img src="static/readme/deep_research.png" alt="Deep research report" width="90%"/>
+<img src="static/readme/deepresearch_en.png" alt="Deep research report" width="90%"/>
 <p><em>Deep research report generation</em></p>
+</div>
+
+<div align="center">
+<img src="static/readme/note_basic_en.png" alt="Note editor" width="90%"/>
+<p><em>Note editor — Notion-style block editor</em></p>
+</div>
+
+<div align="center">
+<img src="static/readme/note_basic_ai_en.png" alt="AI-assisted writing" width="90%"/>
+<p><em>AI-assisted writing — Polish, rewrite, explain</em></p>
+</div>
+
+<div align="center">
+<img src="static/readme/note_polish_en.png" alt="AI polish" width="90%"/>
+<p><em>AI polish — Enhance your writing</em></p>
+</div>
+
+<div align="center">
+<img src="static/readme/note_understanding_en.png" alt="AI explain" width="90%"/>
+<p><em>AI explain — Understand complex content</em></p>
 </div>
 
 ---
 
 ## ✨ Core Features
 
-| Feature | Description |
-|---------|-------------|
-| 📚 **Knowledge Base** | Upload PDFs, paste URLs/text, import from web search — aggregate multiple sources into a notebook |
-| 🔐 **User Management** | Supabase email + OTP authentication, multi-user data isolation; works without login when unconfigured |
-| 💬 **Smart QA** | RAG-based Q&A grounded in selected documents, with persistent chat history |
-| ✍️ **AI-Assisted Notes** | Notion-style block editor with AI polish, rewrite, explain, and source-based generation; supports headings (1-6), lists, code blocks, and Markdown formatting |
-| 🎨 **PPT Generation** | One-click editable slide decks from knowledge base content |
-| 🧠 **Mind Maps** | Generate Mermaid mind maps with preview and export |
-| 🎙️ **Knowledge Podcast** | Turn knowledge base content into podcast scripts and narration assets |
-| 🧩 **DrawIO Diagrams** | Generate editable DrawIO diagrams from text or images, with inline editor |
-| 🃏 **Flashcards** | Auto-generate study flashcards from knowledge base content |
-| 📝 **Quizzes** | Auto-generate multiple-choice questions with scoring |
-| 🔍 **Web Search** | Supports Serper / SerpAPI / Google CSE / Brave / Bocha search providers |
-| 📊 **Deep Research Reports** | Web search + LLM synthesis to produce structured research reports |
-| 🔗 **Semantic Search** | Local embedding-based vector retrieval with configurable Top-K and models |
+<table>
+<tr>
+<td width="50%">
+
+### 📚 Knowledge Management
+- **Multi-source Import**: PDFs, URLs, plain text, web search
+- **Semantic Search**: Local embedding-based vector retrieval
+- **Smart Organization**: Aggregate multiple sources into notebooks
+
+### 💬 AI-Powered Interaction
+- **RAG Q&A**: Context-aware answers grounded in your documents
+- **Chat History**: Persistent conversation threads
+- **Source Attribution**: Transparent reference tracking
+
+### ✍️ Intelligent Note-Taking
+- **Notion-Style Editor**: Block-based editing with Markdown support
+- **AI Writing Assistant**: Polish, rewrite, explain, and generate
+- **Rich Formatting**: Headings (1-6), lists, code blocks, quotes
+
+</td>
+<td width="50%">
+
+### 🎨 Content Generation
+- **Presentations**: Editable PPT slides from knowledge base
+- **Mind Maps**: Mermaid diagrams with preview and export
+- **Diagrams**: DrawIO charts with inline editor
+- **Podcasts**: Script generation with TTS narration
+
+### 📊 Learning Tools
+- **Flashcards**: Auto-generated study cards
+- **Quizzes**: Multiple-choice questions with scoring
+- **Deep Research**: Web search + LLM synthesis reports
+
+### 🔐 User Management
+- **Authentication**: Supabase email + OTP verification
+- **Multi-user Support**: Data isolation per user
+- **Trial Mode**: Full functionality without login
+
+</td>
+</tr>
+</table>
 
 ---
 
